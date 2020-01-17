@@ -1,6 +1,39 @@
 /* CONDICIONAIS, LAÇOS DE REPETIÇAO E DATE */
 
+/* DATE */
 
+var d = new Date();
+alert(d);
+alert(d.getMonth()+1);
+alert(d.getMinutes());
+alert(d.getDay());
+alert(d.getHours());
+
+/* FOR */
+
+/*var count;
+for(count = 0; count <= 5; count++){
+    alert(count);
+};*/
+
+/* wHILE */
+/*var count = 0;
+while(count <= 5){
+    console.log(count);
+    alert(count);
+    count++;
+};*/
+
+/* IF ELSE */
+//var idade = 18;
+/*var idade = prompt('Qual sua idade?');
+
+if(idade >= 18){
+    alert('Maior de idade');
+}else{
+    alert('Menor de idade')
+}
+*/
 
 /* ARRAY E DICIONÁRIO */
 
