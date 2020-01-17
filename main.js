@@ -1,5 +1,35 @@
 /* FUNÇÕES */
 
+function clicou(){
+    document.getElementById('agradecimento').innerHTML = '<b>Obrigado por Clicar!</b>';
+};
+
+function redirecionar(){
+    window.open("https://www.globo.com/"); //aba
+    //window.location.href = "https://www.globo.com/"; //janela
+};
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o Mouse";
+    elemento.innerHTML = "Obrigado por passar o Mouse";
+    //alert('teste');
+};
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = 'Passe o mouse aqui!';
+    elemento.innerHTML = 'Passe o mouse aqui!';
+};
+
+function load(){
+    alert('Página Carregada!');
+};
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+};
+
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 };
@@ -21,7 +51,7 @@ function validaIdade(idade){
 
 var idade = prompt('Qual sua idade? ');
 console.log(validaIdade(idade));
-
+*/
 
 //alert(soma(5,10));
 //alert(setReplace('Vai Japão', 'Japão', 'Brasil'));
